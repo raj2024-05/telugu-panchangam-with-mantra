@@ -1,0 +1,48 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    namespace 'com.example.panchang'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.panchang"
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    // Swiss Ephemeris - pure Java port (by Thomas Mack) of Astrodienst's Swiss
+    // Ephemeris, published on JitPack from https://github.com/krishnact/swisseph
+    // Uses the built-in Moshier analytical model (SEFLG_MOSEPH) - arc-second
+    // accuracy, no external .se1 data files needed, works fully offline.
+    implementation 'com.github.krishnact:swisseph:-SNAPSHOT'
+}

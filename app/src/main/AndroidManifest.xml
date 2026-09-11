@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Panchangam"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PanchangDetailActivity" android:exported="false" />
+        <activity android:name=".CalendarMonthActivity" android:exported="false" />
+        <activity android:name=".FestivalsActivity" android:exported="false" />
+        <activity android:name=".VratActivity" android:exported="false" />
+        <activity android:name=".MuhurthamActivity" android:exported="false" />
+        <activity android:name=".KundaliActivity" android:exported="false" />
+        <activity android:name=".ShodashaVargaActivity" android:exported="false" />
+        <activity android:name=".RashiPhalaluActivity" android:exported="false" />
+        <activity android:name=".BhaktiActivity" android:exported="false" />
+        <activity android:name=".AddTithiActivity" android:exported="false" />
+        <activity android:name=".SettingsActivity" android:exported="false" />
+        <activity android:name=".AboutActivity" android:exported="false" />
+
+    <receiver android:name=".ReminderReceiver" android:exported="false" />
+    </application>
+
+</manifest>

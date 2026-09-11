@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">తెలుగు పంచాంగం</string>
+
+    <!-- Home feature cards -->
+    <string name="feat_telugu_panchangam">తెలుగు పంచాంగం</string>
+    <string name="feat_telugu_panchangam_desc">నెలలోని అన్ని తిథులు, పండుగలు మరియు ఉపవాస దినాల ప్రివ్యూ</string>
+
+    <string name="feat_rojuvari_panchangam">రోజువారీ పంచాంగం</string>
+    <string name="feat_rojuvari_panchangam_desc">ఆ రోజుకు శుభ, అశుభ సమయాలతో వివరణాత్మక పంచాంగం</string>
+
+    <string name="feat_utsavamulu">భారతీయ ఉత్సవములు</string>
+    <string name="feat_utsavamulu_desc">ముఖ్యమైన పండుగలు, ప్రభుత్వ సెలవులు మరియు వార్షికోత్సవాల జాబితా</string>
+
+    <string name="feat_muhurtham">రోజువారీ ముహూర్తం</string>
+    <string name="feat_muhurtham_desc">చౌఘడియ, హోర, లగ్నం, రాహుకాలం, యమగండం, గుళికకాలం వివరాలు</string>
+
+    <string name="feat_kundali">కుండలి</string>
+    <string name="feat_kundali_desc">గ్రహ స్థానాలతో కూడిన చార్ట్, విం‌శోత్తరి దశ మరియు అంతర్దశ</string>
+
+    <string name="feat_jyotisham">జ్యోతిష్యం</string>
+    <string name="feat_jyotisham_desc">వివరణాత్మక కుండలి, జాతక సరిపోలిక (అష్టకూట) మరియు గ్రహ స్థానాలు</string>
+
+    <string name="feat_utilities">Utilities</string>
+    <string name="feat_utilities_desc">సంకల్ప, దిశా యంత్ర, శ్రీ రామ శలాక వంటి ఉపయోగకరమైన ఫీచర్లు</string>
+
+    <string name="feat_rashiphalalu">వేదిక్ రాశిఫలాలు</string>
+    <string name="feat_rashiphalalu_desc">వేదిక్ జ్యోతిష్యం ఆధారంగా రోజువారీ మరియు నెలవారీ రాశి ఫలితాలు</string>
+
+    <string name="feat_bhakti">మంత్రాలు</string>
+    <string name="feat_bhakti_desc">మీకు కావలసిన మంత్రాలను జోడించండి, మార్చండి, తొలగించండి మరియు నోటిఫికేషన్ పెట్టుకోండి</string>
+
+    <string name="feat_vrata">వ్రత సేకరణ</string>
+    <string name="feat_vrata_desc">ఏకాదశి, సంకష్టి, ప్రదోష, పూర్ణిమ, అమావాస్య, శ్రాద్ధ దినాలు</string>
+
+    <string name="feat_add_tithi">తిథి జోడించండి</string>
+    <string name="feat_add_tithi_desc">మీ స్వంత తిథిని హిందూ లేదా గ్రెగోరియన్ తేదీతో పంచాంగానికి జోడించండి</string>
+
+    <string name="feat_vedic_time">వేదిక్ సమయం</string>
+    <string name="feat_vedic_time_desc">ఘటి, పల, విపల ఆధారంగా ఇష్టకాల - వేదిక్ కాలగణన</string>
+
+    <string name="feat_settings">సెట్టింగులు</string>
+    <string name="feat_settings_desc">పంచాంగ ప్రదేశం, యాప్ భాష, థీమ్ మొదలైనవి అనుకూలీకరించండి</string>
+
+    <string name="feat_regional">ప్రాంతీయ క్యాలెండర్</string>
+    <string name="feat_regional_desc">తమిళ్, మలయాళం, మరాఠీ, గుజరాతీ, బెంగాలీ, ఒడియా, కన్నడ, తెలుగు, జైన పండుగలు</string>
+
+    <string name="feat_about">పంచాంగం గురించి</string>
+    <string name="feat_about_desc">పంచాంగ మూలకాలు, చౌఘడియ, అష్టకూట గురించి సంక్షిప్త సమాచారం</string>
+
+    <string name="feat_masa_veekshana">మాస వీక్షణ</string>
+    <string name="feat_masa_veekshana_desc">ఈ నెల పక్షము, తిథులు</string>
+
+    <string name="feat_jataka">జాతక సరిపోలిక</string>
+    <string name="feat_jataka_desc">అష్టకూటతో గుణ మిలన్</string>
+
+    <string name="feat_shodasha_varga">షోడశ వర్గ చక్రాలు</string>
+    <string name="feat_shodasha_varga_desc">రాశి, భావ, నవాంశతో సహా మొత్తం 16 వర్గ చార్టులు - డ్రాప్‌డౌన్‌లో ఎంచుకోండి</string>
+
+    <!-- Detail screen labels -->
+    <string name="label_tithi">తిథి</string>
+    <string name="label_paksham">పక్షం</string>
+    <string name="label_nakshatram">నక్షత్రం</string>
+    <string name="label_yogam">యోగం</string>
+    <string name="label_karanam">కరణం</string>
+    <string name="label_vaaram">వారం</string>
+    <string name="label_masam">మాసం</string>
+    <string name="label_samvatsaram">సంవత్సరం</string>
+    <string name="label_sunrise">సూర్యోదయం</string>
+    <string name="label_sunset">సూర్యాస్తమయం</string>
+    <string name="label_moonrise">చంద్రోదయం</string>
+    <string name="label_moonset">చంద్రాస్తమయం</string>
+    <string name="label_rahukalam">రాహుకాలం</string>
+    <string name="label_yamagandam">యమగండం</string>
+    <string name="label_gulikakalam">గుళికకాలం</string>
+    <string name="label_abhijit">అభిజిత్ ముహూర్తం</string>
+    <string name="label_durmuhurtam">దుర్ముహూర్తం</string>
+    <string name="label_hindu_samayam">హిందూ సమయం</string>
+
+    <string name="set_location">స్థానం</string>
+    <string name="set_latitude">అక్షాంశం (Latitude)</string>
+    <string name="set_longitude">రేఖాంశం (Longitude)</string>
+    <string name="save">సేవ్ చేయండి</string>
+</resources>

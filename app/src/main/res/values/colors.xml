@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="maroon_primary">#A6191E</color>
+    <color name="maroon_dark">#7A1216</color>
+    <color name="gold_bg">#F7DFA1</color>
+    <color name="gold_card">#F5D98B</color>
+    <color name="brown_dark_bg">#2B1B0E</color>
+    <color name="brown_card">#3A2513</color>
+    <color name="text_red">#B5121B</color>
+    <color name="text_gold">#F2C14E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="highlight_orange">#E8720C</color>
+</resources>

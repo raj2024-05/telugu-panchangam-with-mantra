@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gold_bg">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/maroon_primary"
+        app:title="@string/feat_kundali"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="కస్టమర్ వివరాలు"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/text_red"
+                android:layout_marginBottom="8dp"/>
+
+            <Spinner
+                android:id="@+id/spCustomer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gold_card"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/etCustomerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="కస్టమర్ పేరు"
+                android:inputType="textCapWords"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="మొబైల్ నంబర్"
+                android:inputType="phone"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="జనన స్థలం"
+                android:textStyle="bold"
+                android:textColor="@color/text_red"
+                android:layout_marginTop="14dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/actPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="స్థలం టైప్ చేయండి / జాబితా నుంచి ఎంచుకోండి"
+                android:inputType="textCapWords"
+                android:completionThreshold="1"
+                android:singleLine="true"
+                android:background="@color/gold_card"
+                android:padding="12dp"
+                android:layout_marginTop="4dp" />
+
+            <EditText
+                android:id="@+id/etYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="జననం సంవత్సరం"
+                android:inputType="number"
+                android:focusable="false"
+                android:clickable="true"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/etMonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="నెల"
+                android:inputType="number"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/etDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="రోజు"
+                android:inputType="number"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/etBirthDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="జనన తేదీ ఎంచుకోండి"
+                android:focusable="false"
+                android:clickable="true"
+                android:drawableEnd="@android:drawable/ic_menu_my_calendar"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/etHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="గంట"
+                android:inputType="number"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/etMinute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="నిమిషం"
+                android:inputType="number"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/etBirthTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="జనన సమయం ఎంచుకోండి"
+                android:focusable="false"
+                android:clickable="true"
+                android:drawableEnd="@android:drawable/ic_lock_idle_alarm"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/etLat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="అక్షాంశం"
+                android:inputType="numberDecimal|numberSigned"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/etLon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="రేఖాంశం"
+                android:inputType="numberDecimal|numberSigned"
+                android:layout_marginTop="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginTop="12dp">
+
+                <Button
+                    android:id="@+id/btnSaveCustomer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="సేవ్"
+                    android:backgroundTint="@color/maroon_primary"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/btnOpenCustomer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ఓపెన్"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:backgroundTint="@color/maroon_primary"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/btnDeleteCustomer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="తొలగించు"
+                    android:backgroundTint="@color/maroon_primary"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCompute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="కుండలి లెక్కించండి"
+                android:layout_marginTop="14dp"
+                android:backgroundTint="@color/maroon_primary"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/resultContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="చార్ట్ రకం ఎంచుకోండి"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/text_red"
+                android:layout_marginTop="22dp" />
+
+            <Spinner
+                android:id="@+id/spVarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gold_card"
+                android:padding="10dp"
+                android:layout_marginTop="6dp" />
+
+            <LinearLayout
+                android:id="@+id/vargaContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
